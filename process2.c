@@ -16,7 +16,7 @@ int main()
     int i = 1;
 
 
-    shm = shm_open("usr/share/dictionary", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR );
+    shm = shm_open("/usr/share/dictionary", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR );
 
 
     ftruncate(shm,sizeof(int));
