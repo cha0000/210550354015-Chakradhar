@@ -25,8 +25,8 @@ int main()
 
     while(1)
     {
-        printf("String  =  %s \n",*count);
-        printf("Size o f the string  = %d",strlen(count));
+        printf("%s \n",*count);
+        printf("%d",strlen(count));
         sleep(0.1);
     }
 
